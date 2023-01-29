@@ -10,7 +10,7 @@ application:
 replicaCount: 1
 
 image:
-  repository: ramya12.azurecr.io
+  repository: ramya12.azurecr.io/sampleapi
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v1"
